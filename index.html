@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Letsgrowmore</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/231b21c8f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav id="navbar">
+        <span class="right left-text">
+          <h1 style="color: beige;">Zippy</h1>
+        </span>
+        <ul class="right-nav right-text">
+          <li><a href="#contact" style="text-decoration: none;">Contact</a></li>
+          <li><a href="#vedios"style="text-decoration: none;">Vedios</a></li>
+          <li><a href="#photos"style="text-decoration: none;">Projects</a></li>
+          <li><a href="#About"style="text-decoration: none;">About</a></li>
+          <li><a href="#"style="text-decoration: none;">Home</a></li>
+        </ul>
+      </nav>
+      <div class="side-baar">
+        <div class="side-1">
+          <p>Zippy is a platform where you can able to learn and explore new things .</p>
+
+          <button>Know More</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div>
+      <h2 class="text-center" style="font-size: 2.5rem;"><a href="about" style="text-decoration: none;">Welcome To Zippy</a></h2>
+      <div class="container1">
+        <div class="dox11">
+          <p style="font-size: 3rem;">Expand your skills — your way</p>
+          Zippy Make things easy for you and make you expert in development domain .Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aut!
+        </div>
+        <div class="dox12">
+         <img src="development.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h2 id="photos" style="background-color: coral; font-size: 2.5rem;">Projects</h2>
+      <div class="container3">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="web1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 5.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 6.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 7.jpg" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="web1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 5.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 6.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="web 7.jpg" />
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 10,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+        });
+      </script>
+      </dev>
+
+      <div class="search ">
+        <div class="text-center margin ">
+          <input type="text" name="search" id="search-here" style="width: 600px; font-size: 2rem;"
+            placeholder="search here"">
+  <button style=" font-size: 2rem;">Search</button>
+        </div>
+      </div>
+      <div class="text-center">
+        <h2 style="font-size: 2.5rem; background-color: black; color: blanchedalmond;">Courses</h2>
+      </div>
+      <div class="project-pricing">
+        <div id="pro1">
+          <header>
+            <div class="text-center">
+              <h2>React For Beginners</h2>
+            </div>
+            <div class="text-center describe">
+              starting
+              <h1>&#x20B9;999</h1>
+              <p><a href="#">+taxes</a></p>
+            </div>
+          </header>
+          <main>
+            <p style="padding-left:3px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit excepturi praesentium, illum
+              blanditiis vel?
+            </p>
+            <div class="text-center">
+              <div class="btn">
+                <button>Know More</button>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div id="pro2">
+          <header>
+            <div class="text-center">
+              <h2>React Native For Beginners</h2>
+            </div>
+            <div class="text-center describe">
+              starting
+              <h1>&#x20B9;1299</h1>
+              <p><a href="#">+taxes</a></p>
+            </div>
+          </header>
+          <main>
+            <p style="padding-left:3px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit excepturi praesentium, illum
+              blanditiis vel?
+            </p>
+            <div class="text-center">
+              <div class="btn">
+                <button>Know More</button>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div id="pro3">
+          <header>
+            <div class="text-center">
+              <h2>Python For Beginners</h2>
+            </div>
+            <div class="text-center describe">
+              starting
+              <h1>&#x20B9;699</h1>
+              <p><a href="#">+taxes</a></p>
+            </div>
+          </header>
+          <main>
+            <p style="padding-left:3px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit excepturi praesentium, illum
+              blanditiis vel?
+            </p>
+            <div class="text-center">
+              <div class="btn">
+                <button>Know More</button>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div id="pro4">
+          <header>
+            <div class="text-center">
+              <h2>NodeJs For Beginners</h2>
+            </div>
+            <div class="text-center describe">
+              starting
+              <h1>&#x20B9;1199</h1>
+              <p><a href="#">+taxes</a></p>
+            </div>
+          </header>
+          <main>
+            <p style="padding-left:3px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit excepturi praesentium, illum
+              blanditiis vel?
+            </p>
+            <div class="text-center">
+              <div class="btn">
+                <button>Know More</button>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <h2 id="vedios" style="background-color: chartreuse; font-size: 2.5rem;">Vedio Projects</h2>
+        <div class="container2">
+
+          <div id="div1">
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/Ha6r2_B_6F0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div id="div2">
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/wHFflWvii3M?start=2"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div id="div3">
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/PgAZ8KzfhO8"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div id="div4">
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/nPZp-YNPyC8?start=2"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer id="contact">
+    <div class="text-center">
+      <h3 style="background-color: black; color: blanchedalmond; font-size: 3rem;">Contact Us</h3>
+    </div>
+    <div class="container7">
+      <div class="contact">
+        <form action="" id="forms">
+          Name :
+          <br>
+          <input type="text" name="name" id="name" placeholder="name"><br>
+          Email:
+          <br>
+          <input type="text" name="email" id="email" placeholder="name@gmail.com" required><br>
+          <p>Subject:</p>
+          <textarea name="textarea" id="" cols="35" rows="6"></textarea>
+          <button id="buttom">Submit</button>
+        </form>
+      </div>
+      <div class="social-contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.56305731717!2d88.04953334070645!3d22.67575208848934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1633660583909!5m2!1sen!2sin"
+          width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="my-self">
+      <div id="name-social-container">
+        <div class="text-center">
+          <h1 id="my-name">
+            Anand Choubey
+          </h1>
+        </div>
+        <div>
+          <ul class="horizontal-list text-center social-icons">
+            <li>
+              <a href="https://www.facebook.com/siddharth.chaturvedi.754">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/anand-choubey-2857721b4/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/choubey_anand_44/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/anand0499">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="text-center"><br>
+            <p>Kolkata ,West bengal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+
+</html>
